@@ -2,9 +2,9 @@
   "scripts": [
     {
       "name": "尺寸标注",
-      "description": "Does something amazing with layers.",
+      "description": "标注你的画板或对象尺寸",
       "version": "1.0.0",
-      "author": "Your Name",
+      "author": "cheng",
       "category": "Layers",
       "download_url": "https://github.com/tk17728023439-ops/size-/blob/main/size.js"
     }
