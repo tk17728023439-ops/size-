@@ -1,7 +1,7 @@
 {
   "scripts": [
     {
-      "name": "My Awesome Script",
+      "name": "尺寸标注",
       "description": "Does something amazing with layers.",
       "version": "1.0.0",
       "author": "Your Name",
