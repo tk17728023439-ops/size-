@@ -6,18 +6,18 @@
 
 'use strict';
 
-const { app } = require('/application.js');
-const { Document } = require('/document.js');
-const { Dialog, DialogResult } = require('/dialog.js');
-const { AddChildNodesCommandBuilder } = require('/commands.js');
-const { UnitValueConverter, UnitType } = require('/units.js');
-const { Colour } = require('/colours.js');
-const { FillDescriptor, SolidFill } = require('/fills.js');
-const { LineStyleDescriptor, LineStyle, StrokeAlignment } = require('/linestyle.js');
-const { Curve, PolyCurve, Point } = require('/geometry.js');
-const { ContainerNodeDefinition, PolyCurveNodeDefinition, ArtTextNodeDefinition } = require('/nodes.js');
-const { StoryBuilder } = require('/storybuilder.js');
-const { GlyphAttDoubleType } = require('/glyphatts.js');
+const { app } = require('/application');
+const { Document } = require('/document');
+const { Dialog, DialogResult } = require('/dialog');
+const { AddChildNodesCommandBuilder } = require('/commands');
+const { UnitValueConverter, UnitType } = require('/units');
+const { Colour } = require('/colours');
+const { FillDescriptor, SolidFill } = require('/fills');
+const { LineStyleDescriptor, LineStyle, StrokeAlignment } = require('/linestyle');
+const { Curve, PolyCurve, Point } = require('/geometry');
+const { ContainerNodeDefinition, PolyCurveNodeDefinition, ArtTextNodeDefinition } = require('/nodes');
+const { StoryBuilder } = require('/storybuilder');
+const { GlyphAttDoubleType } = require('/glyphatts');
 
 const ARROW_SIZE = 12;
 const DEFAULT_LINE_WIDTH = 2.0;
